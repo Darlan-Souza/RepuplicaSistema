@@ -1,0 +1,268 @@
+body {
+  background: #190B07;
+  /*background: #2b211a linear-gradient(to top, black, #40080A);*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 100%;
+  padding: 0;
+}
+
+/*  Topo */
+.topo {
+  background: url(../img/fundo/madeira4.jpg) top repeat-x; 
+  /* background: #2b211a linear-gradient(to bottom, black, #40080A);
+  background: linear-gradient(to top, black, #303030); */
+  height: 50px;
+  width: 100%;
+}
+
+.topo .area_logo {
+  position: relative;
+}
+.topo .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {    
+  padding-right: 30px;
+  margin-right: 5px;
+}
+
+.navbar-toggler {
+  margin-left: 10px;
+}
+
+.topo .nav-pills {
+  margin-top: 5px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: white;
+}
+.nav .nav-item > a {
+  color: #fff;
+  text-shadow: none;
+}
+.nav .nav-item > a:hover {
+  background: #fff;
+  color: black;
+  border: 10px solid white;
+  border-radius: 5px;
+}
+/*  Fim - Topo */
+
+/*  Banner */
+.banner {
+  background: url(../img/fundo/madeira1.png) bottom repeat-x; 
+  /*background: #2b211a linear-gradient(to top, black, #4b3621) repeat-x;*/
+  height: 390px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.banner .carousel {
+  background: white url(../img/bg/sombra1.png) bottom no-repeat;
+  margin-top: 35px;
+  padding: 5px;
+}
+/*  Fim - Banner */
+
+/*  lis_inf */
+.lis_inf li{
+  margin-bottom: 30px;
+}
+.lis_inf .media-heading {
+  color: #674d43;
+  font-size: 20px;
+}
+.lis_inf a{
+  color: #674d43;
+  text-decoration: none;
+}
+.lis_inf a:hover{
+  color: white;
+}
+
+.lis_inf .media-body .media {
+  color: #666666;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.lis_inf .media-body .media a {
+  color: #674d43;
+  font-size: 14px;
+  display: block;
+  font-weight: bold;    
+  padding: 10px 0;
+}
+/*  Fim - lis_inf */
+
+/*  coluna1 */
+.coluna1 {
+  font-size: 50px;
+  color: #674d43;
+  text-shadow: 1px 2px 4px white;
+}
+/*  Fim - Coluna1 */
+
+/*  Rodapé */
+.rodape {
+  border-top: 1px #303030 solid;
+  padding-top: 25px;
+}
+.rodape .sp_tit {
+  color: #674d43;
+  font-size: 18px;
+  display: block;
+  padding-bottom: 10px;
+}
+/*
+.rodape button {
+  background: #2b211a linear-gradient(to bottom, transparent, #4b3621) repeat-x; 
+  height: 25px;
+  width: 64px;
+  border: 0;
+  margin-left: 140px; 
+}
+.rodape button:hover {
+  background: #2b211a linear-gradient(to bottom, transparent, white, transparent) repeat-x;
+}
+*/
+.rodape .contato {
+  background: url(../img/bg/telefone1.png) left 50% no-repeat;
+  padding-left: 90px;
+  height: 85px;
+}
+.rodape .contato li {
+  color: #999999;
+  font-size: 18px;
+  padding-top: 10px;
+}
+/*  Fim - Rodapé */
+
+/*  Copyright */
+.copyright {
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  color: white;
+  background: url(../img/fundo/madeira4.jpg) top repeat-x;
+  text-align: center;
+  text-shadow: 1px 2px 3px white;
+}
+/*  Fim - Copyright */
+
+@media(max-width: 480px) {
+  /*  Classes */
+  .pd_lr_20 {
+    padding: 0 20px;
+  }
+  /*  Fim - Classes */
+
+  .topo {
+    height: auto;
+  }
+  .topo .logo {
+    width: 105px;
+    padding-left: 5px;
+  }
+  .topo .nav-pills {
+    margin-top: 35px;
+  }
+  .topo .nav-collapse {
+    width: 94%;
+    padding-left: 20px;
+  }
+
+  .banner {
+    height: 160px;
+    margin-bottom: 160px;
+  }
+
+  .banner .carousel {
+    margin-top: 35px;       
+  }
+
+  .media-heading {
+    padding-top: 10px;
+  }
+
+  .facebook {
+    background: none;
+    height: auto;
+  }
+  .facebook .tit {
+    margin: 0 0 10px 0;
+  }
+
+  .fb-wrap {
+    width: 440px;
+  }
+
+  .rodape input {
+    width: 94%;
+  }
+  .rodape button {
+    margin-left: 75%;
+  }
+  .rodape .sp_tit {
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 320px) {
+  .banner {
+    margin-bottom: 160px;
+  }
+
+  .fb-wrap {
+    width: auto;
+  }
+  .rodape button {
+    margin-left: 212px;
+  }
+}
+
+@media(min-width: 481px) and (max-width: 979px) {
+  .topo {
+    height: auto;
+  }
+  .topo .logo {
+    width: 110px;
+    padding-left: 5px;
+  }
+  .topo .nav-pills {
+    margin-top: 40px;
+  }
+  .topo .nav-collapse {
+    width: 94%;
+    padding-left: 20px;
+  }
+
+  .banner {
+    height: 200px;
+    margin-bottom: 60px;
+  }
+
+  .banner .carousel {
+    margin-top: 35px;
+  }
+
+  .rodape input {
+    width: 94%;
+  }
+  .rodape button {
+    margin-right: 20%:
+  }
+  .rodape .sp_tit {
+    margin-top: 20px;
+  }
+  .rodape .contato {
+  background: none;
+  padding-left: 0;
+  height: 68px;
+  }
