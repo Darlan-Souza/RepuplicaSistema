@@ -1,20 +1,21 @@
 body {
   /*background: #2b211a linear-gradient(to top, black, #40080A);*/
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
   font-size: 100%;
   padding: 0;
+  font-family: 'Mali', cursive;
 }
 
 /*  Topo */
 .topo{
-  background: black; 
+  /*background: black; */
   /* background: #2b211a linear-gradient(to bottom, black, #40080A);
   background: linear-gradient(to top, black, #303030); */
-  height: 50px;
+  height: 95px;
   width: 100%;
 }
 .navbar {
-  background: black;
+  background: #2C82C9;
   box-shadow: 0px 10px 10px;
 }
 .navbar-toggler {
@@ -32,7 +33,7 @@ body {
 }
 
 .nav .nav-item > a {
-  background: green;
+  background: #2CC990;
   border: 1px solid green;
   border-radius: 25px;  
   color: white;
@@ -139,3 +140,7 @@ body {
   text-shadow: 1px 2px 3px white;
 }
 /*  Fim - Copyright */
+
+a{
+  color: #000;
+}
