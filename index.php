@@ -22,18 +22,60 @@
     <![endif]-->
   </head>
   <body>
-    <header class="topo">
+    <!-- <header class="topo"> -->
       <!-- Navigation -->
-      <nav class="navbar fixed-top">
-        <div class="container">
-          <div class="area_logo">
-            <a class="navbar-brand" href="index.php" title="Slogan Projeto">
-              <img src="img/logo/logo.png" class="d-inline-block align-top logo" alt="Slogan Projeto"/>
-              <!--Projeto Engenharia Web-->
-            </a>
-          </div>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
 
-          <ul class="nav ml-auto">
+      <div class="container">
+
+        <a class="navbar-brand h1 mb-0" href="#">Helpublica</a>
+
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSite">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSite">
+             <!-- nr-auto alinhar para a esquerda -->
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                  <a href="index.php" class="nav-link">Home</a>           
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="perfil.php">Perfil</a>            
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="registro.php">Registro</a>            
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Serviços</a>            
+                </li>         
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contatos</a>            
+                </li>
+            </ul>
+
+            <!-- nr-auto alinhar para a direita -->
+            <ul class="navbar-nav ml-auto" >
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                    Social
+                  </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="http://facebook.com">Facebook</a>
+                      <a class="dropdown-item" href="#">Twitter</a>
+                      <a class="dropdown-item" href="#">Instagran</a>
+                    </div>
+
+                </li>
+            </ul>
+
+            <form class="form-inline">
+              <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar..." >
+              <button class="btn btn-dark" type="submit">Ok</button>
+            </form>
+
+             <ul class="nav ml-auto">
               <li class="nav-item active login">
                 <a class="nav-link" href="#Home">Login </a>
               </li>
@@ -43,24 +85,10 @@
             <img src="img/icon/icon-collapse.png" class="" alt="Menu"/>
           </button>
 
-          <div class="navbar-collapse collapse" id="MenuApoio" style="">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#PodemosFazer">O que podemos fazer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#QuemSomos">Quem somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contato">Contato</a>
-              </li>
           </div>
-        </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+    <!-- </header> -->
 
     <main>
       <div id="carouselSite" class="carousel slide" data-ride="carousel">
