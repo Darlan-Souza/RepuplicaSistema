@@ -243,8 +243,21 @@
     </div>
 
     <footer class="copyright">
-      <div class="container">
-        Direitos Reservados.
+      <div class="container-fluid" id="container-rodape">
+        <div class="container"> 
+          <div class="row">
+            <!-- definindo padrão responsivo -->
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <p><samp class="glyphicon glyphicon-bishop">Teste Rodape</samp></p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <p>&reg; copyright 2018 Helpublica</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <p>Redes sociais: <a href="http://www.facebook.com">Facebook</a> <a href="http://www.youtube.com">Youtube</a></p>
+            </div>
+          </div>
+        </div>
       </div>  
     </footer>
 

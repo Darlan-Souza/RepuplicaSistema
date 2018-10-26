@@ -132,12 +132,12 @@ body {
 /*  Copyright */
 .copyright {
   margin-top: 10px;
-  height: 50px;
+  height: 250px;
   width: 100%;
   color: white;
-  background: black;
+  background: #CED2D2;
   text-align: center;
-  text-shadow: 1px 2px 3px white;
+  /*text-shadow: 1px 2px 3px white;*/
 }
 /*  Fim - Copyright */
 
