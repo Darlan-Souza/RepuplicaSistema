@@ -45,9 +45,6 @@
                   <a class="nav-link" href="perfil.php">Perfil</a>            
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="registro.php">Registro</a>            
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="#">Serviços</a>            
                 </li>         
                 <li class="nav-item">
@@ -85,6 +82,15 @@
             <img src="img/icon/icon-collapse.png" class="" alt="Menu"/>
           </button>
 
+          <ul class="nav ml-auto">
+              <li class="nav-item active login">
+                <a class="nav-link" href="#Home">Registro </a>
+              </li>
+          </ul>
+
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#MenuApoio" aria-controls="MenuApoio" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/icon/icon-collapse.png" class="" alt="Menu"/>
+          </button>
           </div>
       </div>
     </nav>
